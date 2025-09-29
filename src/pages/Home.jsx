@@ -5,6 +5,7 @@ import Timer from "../components/Timer";
 import CtaButtons from "../components/CtaButtons";
 import { MdArrowOutward } from "react-icons/md";
 import Webinar from "../components/Webinar";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -78,6 +79,9 @@ const Home = () => {
 
         {/* Webinar board timer */}
         <Webinar />
+
+        {/* Footer */}
+        <Footer />
       </div>
     </div>
   );
