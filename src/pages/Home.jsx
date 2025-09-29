@@ -39,33 +39,37 @@ const Home = () => {
         <HighLightCard />
 
         {/* CTA buttons */}
-        <div className="flex mt-8">
-          <CtaButtons bg={"white"}>
-            <div className="flex">
-              <p className="text-[20px] text-black font-semibold flex  m-auto">
-                Join Now (Hinidi)-Free{" "}
-                <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
-                  &#x20B9; 499
+        <div className="flex justify-center gap-8 mt-8">
+          <div className="">
+            <CtaButtons bg={"white"}>
+              <div className="flex">
+                <p className="text-[20px] text-black font-semibold flex  m-auto">
+                  Join Now (Hinidi)-Free{" "}
+                  <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
+                    &#x20B9; 499
+                  </p>
                 </p>
-              </p>
-              <span className="bg-black rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
-                <MdArrowOutward className="text-white text-3xl" />{" "}
-              </span>
-            </div>
-          </CtaButtons>
-          <CtaButtons bg={"black"}>
-            <div className="flex">
-              <p className="text-[20px] text-white font-semibold flex  m-auto">
-                Join Now (English)-Free{" "}
-                <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
-                  &#x20B9; 499
+                <span className="bg-black rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
+                  <MdArrowOutward className="text-white text-3xl" />{" "}
+                </span>
+              </div>
+            </CtaButtons>{" "}
+          </div>
+          <div className="">
+            <CtaButtons bg={"black"}>
+              <div className="flex">
+                <p className="text-[20px] text-white font-semibold flex  m-auto">
+                  Join Now (English)-Free{" "}
+                  <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
+                    &#x20B9; 499
+                  </p>
                 </p>
-              </p>
-              <span className="bg-white rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
-                <MdArrowOutward className="text-black text-3xl" />{" "}
-              </span>
-            </div>
-          </CtaButtons>
+                <span className="bg-white rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
+                  <MdArrowOutward className="text-black text-3xl" />{" "}
+                </span>
+              </div>
+            </CtaButtons>{" "}
+          </div>
         </div>
 
         {/* timer cards */}
