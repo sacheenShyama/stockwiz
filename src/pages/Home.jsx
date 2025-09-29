@@ -1,7 +1,10 @@
 import React from "react";
 import PartnerLogo from "../components/PartnerLogo";
 import HighLightCard from "../components/HighLightCard";
-import Timer from "../components/highLightComp/Timer";
+import Timer from "../components/Timer";
+import CtaButtons from "../components/CtaButtons";
+import { MdArrowOutward } from "react-icons/md";
+import Webinar from "../components/Webinar";
 
 const Home = () => {
   return (
@@ -36,11 +39,41 @@ const Home = () => {
         <HighLightCard />
 
         {/* CTA buttons */}
-        <div></div>
+        <div className="flex mt-8">
+          <CtaButtons bg={"white"}>
+            <div className="flex">
+              <p className="text-[20px] text-black font-semibold flex  m-auto">
+                Join Now (Hinidi)-Free{" "}
+                <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
+                  &#x20B9; 499
+                </p>
+              </p>
+              <span className="bg-black rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
+                <MdArrowOutward className="text-white text-3xl" />{" "}
+              </span>
+            </div>
+          </CtaButtons>
+          <CtaButtons bg={"black"}>
+            <div className="flex">
+              <p className="text-[20px] text-white font-semibold flex  m-auto">
+                Join Now (English)-Free{" "}
+                <p className="flex pl-2 line-through text-[18px] m-auto font-normal">
+                  &#x20B9; 499
+                </p>
+              </p>
+              <span className="bg-white rounded-[50%] w-[50px] h-[50px]  ml-8 flex items-center justify-center">
+                <MdArrowOutward className="text-black text-3xl" />{" "}
+              </span>
+            </div>
+          </CtaButtons>
+        </div>
 
         {/* timer cards */}
 
         <Timer />
+
+        {/* Webinar board timer */}
+        <Webinar />
       </div>
     </div>
   );
