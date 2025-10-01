@@ -28,18 +28,21 @@ const LoginForm = () => {
             type="text"
             name="name"
             placeholder="name"
+            required={false}
           />
           <input
             className="border-gray-400 border-[1.24px] w-full rounded-lg p-3"
             type="text"
             name="email"
             placeholder="email"
+            required={false}
           />
           <input
             className="border-gray-400 border-[1.24px] w-full rounded-lg p-3"
             type="text"
             name="phone"
             placeholder="Phone no."
+            required={false}
           />
           <button className="text-[16px] font-bold w-full py-3 rounded-lg mt-2 bg-gradient-to-r from-green-500 to-yellow-500">
             <Link to={"/home"}>Submit</Link>

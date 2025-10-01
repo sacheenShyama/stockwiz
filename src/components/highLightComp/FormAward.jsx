@@ -228,5 +228,5 @@ export const Form = () => {
 };
 
 export const Award = () => {
-  return <div>award show</div>;
+  return <div><p className="italic underline ">Under development</p></div>;
 };
