@@ -1,12 +1,15 @@
 import React from "react";
+import Background from "../components/LandingComponents/Background";
+import LoginForm from "../components/login/LoginForm";
+import Navbar from "../components/LandingComponents/Navbar";
 
 const Login = () => {
   return (
-    <div className="text-white ">
-      <div className="h-[871px] rounded-t-xl rounded-b-3xl bg-[linear-gradient(135deg,#667eea_0%,#764ba2_100%)] container m-auto mt-4">
-        Login
+    <Background>
+      <div className="flex items-center justify-center min-h-screen">
+        <LoginForm />
       </div>
-    </div>
+    </Background>
   );
 };
 
