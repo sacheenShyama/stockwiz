@@ -6,13 +6,12 @@ import CtaButtons from "../components/CtaButtons";
 import { MdArrowOutward } from "react-icons/md";
 import Webinar from "../components/Webinar";
 import Footer from "../components/Footer";
+import Landing from "../components/Landing";
 
 const Home = () => {
   return (
     <div className="text-white ">
-      <div className="min-h-screen rounded-t-xl rounded-b-3xl bg-gradient-to-b from-[rgba(34,180,0,1)] via-[rgba(14,14,14,1)] to-[rgba(253,203,21,1)] container m-auto mt-4">
-        Home
-      </div>
+      <Landing />
       {/* partner section */}
       <div className="mt-12">
         <p className="text-base text-center pt-2.5 text-gray-400">
@@ -42,7 +41,12 @@ const Home = () => {
         {/* CTA buttons */}
         <div className="flex justify-center gap-8 mt-8">
           <div className="">
-            <CtaButtons bg={"white"}>
+            <CtaButtons
+              from="#4C73FF"
+              to="#00A2B7"
+              bg={"white"}
+              childText={"(Limited Seats Only)"}
+            >
               <div className="flex">
                 <p className="text-[20px] text-black font-semibold flex  m-auto">
                   Join Now (Hinidi)-Free{" "}
@@ -57,7 +61,12 @@ const Home = () => {
             </CtaButtons>{" "}
           </div>
           <div className="">
-            <CtaButtons bg={"black"}>
+            <CtaButtons
+              from="#4C73FF"
+              to="#00A2B7"
+              bg={"black"}
+              childText={"(Limited Seats Only)"}
+            >
               <div className="flex">
                 <p className="text-[20px] text-white font-semibold flex  m-auto">
                   Join Now (English)-Free{" "}

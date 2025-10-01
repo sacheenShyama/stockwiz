@@ -24,11 +24,15 @@ const Webinar = () => {
                     Join Now (English)-Free
                   </p>
                   <span className="pl-2 text-black line-through text-[18px] font-normal">
-                    ₹499
+                    ₹299
                   </span>
                 </div>
-                <div className="bg-black rounded-full w-[50px] h-[50px] ml-8 flex items-center justify-center">
-                  <MdArrowOutward className="text-white text-3xl" />
+
+                <div className="flex items-center gap-3">
+                  <p className="text-gray-500 text-sm">(Limited Seats Only)</p>
+                  <div className="bg-black rounded-full w-[50px] h-[50px] flex items-center justify-center">
+                    <MdArrowOutward className="text-white text-3xl" />
+                  </div>
                 </div>
               </div>
             </CtaButtons>
@@ -53,11 +57,15 @@ const Webinar = () => {
                     Join Now (English)-Free
                   </p>
                   <span className="pl-2 text-white line-through text-[18px] font-normal">
-                    ₹499
+                    ₹299
                   </span>
                 </div>
-                <div className="bg-white rounded-full w-[50px] h-[50px] ml-8 flex items-center justify-center">
-                  <MdArrowOutward className="text-black text-3xl" />
+
+                <div className="flex items-center gap-3">
+                  <p className="text-gray-400 text-sm">(Limited Seats Only)</p>
+                  <div className="bg-white rounded-full w-[50px] h-[50px] flex items-center justify-center">
+                    <MdArrowOutward className="text-black text-3xl" />
+                  </div>
                 </div>
               </div>
             </CtaButtons>
